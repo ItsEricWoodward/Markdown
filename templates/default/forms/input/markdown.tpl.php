@@ -11,20 +11,25 @@
         textarea: 'textarea<?=$unique_id?>',
         basePath: '/IdnoPlugins/Markdown/external/epiceditor',
         theme: {
-            editor: '/themes/editor/epic-light.css'
+            editor: '/themes/editor/epic-light.css',
+            preview: '/themes/preview/known.css'
         },
         file: {
             name: '<?=$unique_id?>',
-            defaultContent: $('#textarea<?=$unique_id?>').html()
+            defaultContent: document.querySelector('#textarea<?=$unique_id?>').innerHTML
         },
         autogrow: {
             minHeight: 250,
             maxHeight: 1000,
             scroll: true
         },
-        clientSideStorage: false
+        clientSideStorage: false,
+        parser: KnownMD.parser,
+        button: {
+          bar: true
+        }
     };
     var editor = new EpicEditor(options).load();
-    editor.open('<?=$unique_id?>', $('#textarea<?=$unique_id?>').html());
+    editor.open('<?=$unique_id?>', document.querySelector('#textarea<?=$unique_id?>').innerHTML);
 </script>
 <input type="hidden" name="markdown_editor" value="true">

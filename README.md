@@ -10,7 +10,14 @@ Editing existing posts will use the WYSIWYG editor; only new posts, authored in 
 2. Click on Site Configuration, and then Plugins.
 3. Find Markdown in the list and turn it on.
 
+## Modifications
+
+This is a fork of the original repo which replaces EpicEditor's built-in Markdown interpreter with CommonMark JS,
+and replaces Parsedown with CommonMark PHP, providing a unified CommonMark experience.
+
 ## Includes
 
 * EpicEditor by Oscar Godson. Source: https://github.com/OscarGodson/EpicEditor
-* Parsedown by Emanuil Rusev, released under an MIT license. Source: https://github.com/erusev/parsedown
++ CommonMark JS by John MacFarlane. Source: https://github.com/jgm/commonmark.js
++ league/commonmark by Colin O’Dell. Site: http://commonmark.thephpleague.com/
+

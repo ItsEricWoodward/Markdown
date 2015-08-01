@@ -1,0 +1,144 @@
+#epiceditor-preview {
+    background-color: #fff;
+    color: #222;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0 1em;
+}
+
+#epiceditor-preview blockquote {
+    border-left: .4em solid #222;
+    margin: 0 0 1.4em;
+    padding: 0 0 0 1em;
+}
+
+#epiceditor-preview blockquote::after {
+    content: "";
+}
+
+#epiceditor-preview blockquote::before {
+    content: "";
+}
+
+#epiceditor-preview code {
+    border-radius: .2em;
+    color: #333333;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-size: .9em;
+    padding: 0 .2em .2em;
+}
+
+#epiceditor-preview h1  {
+    color: inherit;
+    font-family: inherit;
+    font-size: 2.8em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: .6em 0;
+    text-rendering: optimizelegibility;
+}
+
+#epiceditor-preview h2  {
+    color: inherit;
+    font-family: inherit;
+    font-size: 2.2em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: .6em 0;
+    text-rendering: optimizelegibility;
+}
+
+#epiceditor-preview h3 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1.8em;
+    margin: .6em 0;
+    text-rendering: optimizelegibility;
+    line-height: 1em;
+}
+
+#epiceditor-preview h4 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1em;
+    margin: .6em 0;
+    text-rendering: optimizelegibility;
+}
+
+#epiceditor-preview h5 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1em;
+    margin: .6em 0;
+    text-rendering: optimizelegibility;
+}
+
+#epiceditor-preview h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1em;
+    margin: .6em 0;
+    text-rendering: optimizelegibility;
+}
+
+#epiceditor-preview li {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+#epiceditor-preview ol {
+    margin: 0 0 .6em 1.8em;
+    padding: 0;
+}
+
+#epiceditor-preview p {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.5em !important;
+    margin: 0 0 .6em;
+}
+
+#epiceditor-preview pre {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: .3em;
+    color: #333333;
+    display: block;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-size: .9em;
+    line-height: 1.5em;
+    margin: 0 0 .6em;
+    padding: .6em;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#epiceditor-preview pre code {
+    background-color: transparent;
+    border: 0 none;
+    color: inherit;
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+#epiceditor-preview q::after {
+    content: "";
+}
+
+#epiceditor-preview q::before {
+    content: "";
+}
+
+#epiceditor-preview ul {
+    margin: 0 0 .6em 1.8em;
+    padding: 0;
+}

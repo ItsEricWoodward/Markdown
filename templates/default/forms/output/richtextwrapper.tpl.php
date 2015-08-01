@@ -2,11 +2,9 @@
 
     // First: should we use markdown at all?
 
-    $markdown = true;
+    $markdown = false;
     if (!empty($vars['object']->_id)) {
-        if (empty($vars['object']->markdown_editor)) {
-            $markdown = false;
-        }
+        $markdown = !(empty($vars['object']->markdown_editor) && empty($vars['object']->markdown_format));
     }
 
     if ($markdown) {
